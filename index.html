@@ -15,7 +15,34 @@
 
 <body class="bg-dark text-light" id="colorChange">
     <header>
-
+        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+            <div class="container-fluid">
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html" id="home-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="choice.html" id="choice-link">Choice</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="movie.html" id="movie-link">Movie</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
     <main>
         <button class="btn m-5 bg-light text-dark" id="buttonChange" onclick="lightDark">Light/Dark Mode</button>
