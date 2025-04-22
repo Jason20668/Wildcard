@@ -13,3 +13,7 @@ h1 {
 .bigHuge {
     font-size: 130px;
     }
+
+.imgSize {
+    size: 100px;
+}
