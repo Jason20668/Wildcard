@@ -18,3 +18,16 @@ h1 {
 .wholeAccordion {
     justify-content: center;
 }
+
+.accordion {
+	--bs-accordion-btn-color: ghostwhite;
+	--bs-accordion-btn-bg: gray;
+	--bs-accordion-active-color: black;
+	--bs-accordion-active-bg: white;
+}
+
+h3 {
+    font-family: "benton-modern-text", serif;
+    font-weight: 700;
+    font-style: normal;
+}
