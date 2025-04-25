@@ -38,14 +38,18 @@
         </nav>
     </header>
     <main>
-        <div class="container">
+        <div class="container d-flex justify-content-center">
             <div class="row">
                 <h1 class="bigHuge text-center pt-5">Quote Quiz:</h1>
                 <h1 class="text-center fs-1">Can you guess which quote is something I've actually said!</h1>
             </div>
         </div>
-        <div class="row">
-            <button class="justify-content-center w-80">Click to start the quiz!</button>
+        <div class="row d-flex justify-content-center align-items-center ms-3 me-3">
+            <div class="col-12 col-md-7">
+                <button id="startQuizBtn" class="btn btn-secondary btn-lg w-100">Start Quiz</button> 
+            </div>
+        <div class="row d-flex justify-content-center">
+            <h1 id="quizContainer" class="text-center mt-5"></h1>
         </div>
 
 
