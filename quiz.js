@@ -14,7 +14,7 @@ const quizzes = {
             },
             {
                 question: "Which of these quotes have I not said",
-                options: ["The Cubs are a New York team because I say so", "Theres no k in Nicks stupid", "The Broncos are from the Bronx", "The Buccaneers are from Miami right?"],
+                options: ["The Cubs are a New York team because I say so", "I know Tom Brady, he’s the guy in Top Gun right?", "The Broncos are from the Bronx", "The Buccaneers are from Miami right?"],
                 answer: 3
             },
         ] 
