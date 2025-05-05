@@ -23,7 +23,7 @@ const quizzes = {
 
 let currentQuiz = [];
 let currentQuestionIndex = 0;
-let score = 0; // Keep track of correct answers
+let score = 0;
 
 function startQuiz(quizKey) {
     const quiz = quizzes[quizKey];
